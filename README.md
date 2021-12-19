@@ -1,16 +1,9 @@
-# snackbar
+## Widget SnackBar
 
-A new Flutter project.
+-  Este widget se utiliza principalmente para dar feedback al usuario de la aplicación, mostrando una alerta en la parte baje de la pantalla, el diseño de esta alerta se puede modificar gracias a varias opciones como anchor, bordes redondeados, duración … También se puede añadir un botón con alguna acción por ejemplo deshacer la acción que se informa que se ha ejecutado.
 
-## Getting Started
+-  Este tipo de widget son muy usado sobre todo para acciones gestuales para informar al usuario que se ha ejecutado, tiene mucho uso en información que se muestra en formato de listas, ya sean correos, tareas, noticias …
 
-This project is a starting point for a Flutter application.
+-  En mi caso para la implementación de un ejemplo he optado por modificar la aplicación de uocmail de la actividad 3, la cual el añadido una función extra para mostrar un SnackBar cuando se elimine un email o cuando se marque como leído, en este último se ha añadido al SnackBar un botón de cancelar para que cancele la acción de marcado como leído que se ha realizado.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-  Video de aplicación:

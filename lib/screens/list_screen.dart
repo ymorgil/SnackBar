@@ -22,12 +22,9 @@ class _ListScreenState extends State<ListScreen> {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(
           content: const Text("Mensaje eliminado"),
           duration: const Duration(seconds: 5),
-          //width: 280.0, // Width of the SnackBar.
-          // padding: const EdgeInsets.all(2.0),
           behavior: SnackBarBehavior.floating,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20.0),
-          ),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
         ));
         break;
       case 2:

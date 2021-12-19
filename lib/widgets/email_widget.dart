@@ -38,8 +38,7 @@ class EmailWidget extends StatelessWidget {
       onLongPress: () {
         onLongPress(email.id);
         update();
-        //if (!email.read)
-        snackbar(2, email.id);
+        if (email.read) snackbar(2, email.id);
       },
       onHorizontalDragEnd: (details) {
         onHorizontalDragEnd(email.id);
